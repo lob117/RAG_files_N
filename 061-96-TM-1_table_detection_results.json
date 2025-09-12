@@ -1,0 +1,606 @@
+{
+  "pdf_path": "C:\\Users\\javie\\CORPORACIÓN NATURAL SIG\\pruebas_docs - OCR_Pdf\\061-96-TM-1.pdf",
+  "pdf_type": "vectorized",
+  "total_tables": 25,
+  "detection_methods": [
+    "pdfplumber_pattern",
+    "pdfplumber_coordinates"
+  ],
+  "summary": [
+    {
+      "page": 4,
+      "tables_count": 1,
+      "high_confidence": 0,
+      "medium_confidence": 1,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_pattern"
+      ]
+    },
+    {
+      "page": 5,
+      "tables_count": 1,
+      "high_confidence": 0,
+      "medium_confidence": 1,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_pattern"
+      ]
+    },
+    {
+      "page": 8,
+      "tables_count": 1,
+      "high_confidence": 1,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 34,
+      "tables_count": 1,
+      "high_confidence": 0,
+      "medium_confidence": 1,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 35,
+      "tables_count": 1,
+      "high_confidence": 0,
+      "medium_confidence": 1,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_pattern"
+      ]
+    },
+    {
+      "page": 92,
+      "tables_count": 1,
+      "high_confidence": 0,
+      "medium_confidence": 1,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 177,
+      "tables_count": 1,
+      "high_confidence": 0,
+      "medium_confidence": 1,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 179,
+      "tables_count": 1,
+      "high_confidence": 1,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 180,
+      "tables_count": 1,
+      "high_confidence": 1,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 181,
+      "tables_count": 1,
+      "high_confidence": 1,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 182,
+      "tables_count": 1,
+      "high_confidence": 1,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 183,
+      "tables_count": 1,
+      "high_confidence": 0,
+      "medium_confidence": 1,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 184,
+      "tables_count": 1,
+      "high_confidence": 0,
+      "medium_confidence": 1,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 185,
+      "tables_count": 1,
+      "high_confidence": 1,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 186,
+      "tables_count": 1,
+      "high_confidence": 1,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 187,
+      "tables_count": 1,
+      "high_confidence": 1,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 188,
+      "tables_count": 1,
+      "high_confidence": 1,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 189,
+      "tables_count": 1,
+      "high_confidence": 0,
+      "medium_confidence": 1,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 193,
+      "tables_count": 1,
+      "high_confidence": 1,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 196,
+      "tables_count": 1,
+      "high_confidence": 1,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 197,
+      "tables_count": 1,
+      "high_confidence": 1,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 199,
+      "tables_count": 1,
+      "high_confidence": 1,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 200,
+      "tables_count": 1,
+      "high_confidence": 0,
+      "medium_confidence": 1,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 201,
+      "tables_count": 1,
+      "high_confidence": 1,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    },
+    {
+      "page": 202,
+      "tables_count": 1,
+      "high_confidence": 1,
+      "medium_confidence": 0,
+      "low_confidence": 0,
+      "methods_used": [
+        "pdfplumber_coordinates"
+      ]
+    }
+  ],
+  "tables_by_page": {
+    "4": [
+      {
+        "page": 4,
+        "method": "pdfplumber_pattern",
+        "accuracy": 25.818181818181817,
+        "table_index": 0,
+        "shape": [
+          11,
+          11
+        ],
+        "confidence": "medium",
+        "header": "2. 5 PARAMETROS BASICOS PARA LAS UNIDADES DE",
+        "sample_data": [
+          "PRE- TRATAMIENTO 29",
+          "2. 5.1 Caudal máximo de aguas servidas. 30",
+          "2. 5.2 Velocidad real en tramo final interceptor 30"
+        ]
+      }
+    ],
+    "5": [
+      {
+        "page": 5,
+        "method": "pdfplumber_pattern",
+        "accuracy": 26.466666666666665,
+        "table_index": 0,
+        "shape": [
+          15,
+          9
+        ],
+        "confidence": "medium",
+        "header": "2. 7 PARAMETROS DE DISEñO DE LA UNIDAD DE",
+        "sample_data": [
+          "TRATAMIENTO DEL BARRIO SAN FERNANDO 35",
+          "2.8 PARAMETROS DE DISEñO DEL FILTRO PERCOLADOR",
+          "ANAEROBICO 37"
+        ]
+      }
+    ],
+    "8": [
+      {
+        "page": 8,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 94.44444444444444,
+        "table_index": 0,
+        "shape": [
+          3,
+          3
+        ],
+        "confidence": "high"
+      }
+    ],
+    "34": [
+      {
+        "page": 34,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 60.43478260869565,
+        "table_index": 0,
+        "shape": [
+          3,
+          7
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "35": [
+      {
+        "page": 35,
+        "method": "pdfplumber_pattern",
+        "accuracy": 25.666666666666668,
+        "table_index": 0,
+        "shape": [
+          3,
+          9
+        ],
+        "confidence": "medium",
+        "header": "2.6 PARAMETROS DE DISEÑOS DE LAS UNIDADES TRATAMIENTO",
+        "sample_data": [
+          "Están constituidas por 3 lagunas anaeróbicas y 3",
+          "2.6.1 Caudal de diseño y población servida. El caudal",
+          "conexiones erradas para un total de 650 lit/seg al"
+        ]
+      }
+    ],
+    "92": [
+      {
+        "page": 92,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 74.0,
+        "table_index": 0,
+        "shape": [
+          3,
+          1
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "177": [
+      {
+        "page": 177,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 80.0,
+        "table_index": 0,
+        "shape": [
+          3,
+          1
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "179": [
+      {
+        "page": 179,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 100,
+        "table_index": 1,
+        "shape": [
+          3,
+          1
+        ],
+        "confidence": "high"
+      }
+    ],
+    "180": [
+      {
+        "page": 180,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 98.0,
+        "table_index": 0,
+        "shape": [
+          3,
+          1
+        ],
+        "confidence": "high"
+      }
+    ],
+    "181": [
+      {
+        "page": 181,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 100,
+        "table_index": 0,
+        "shape": [
+          7,
+          1
+        ],
+        "confidence": "high"
+      }
+    ],
+    "182": [
+      {
+        "page": 182,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 100,
+        "table_index": 1,
+        "shape": [
+          3,
+          1
+        ],
+        "confidence": "high"
+      }
+    ],
+    "183": [
+      {
+        "page": 183,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 77.3913043478261,
+        "table_index": 0,
+        "shape": [
+          9,
+          2
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "184": [
+      {
+        "page": 184,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 66.11111111111111,
+        "table_index": 0,
+        "shape": [
+          27,
+          2
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "185": [
+      {
+        "page": 185,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 100,
+        "table_index": 0,
+        "shape": [
+          3,
+          1
+        ],
+        "confidence": "high"
+      }
+    ],
+    "186": [
+      {
+        "page": 186,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 100,
+        "table_index": 0,
+        "shape": [
+          4,
+          1
+        ],
+        "confidence": "high"
+      }
+    ],
+    "187": [
+      {
+        "page": 187,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 100,
+        "table_index": 1,
+        "shape": [
+          4,
+          1
+        ],
+        "confidence": "high"
+      }
+    ],
+    "188": [
+      {
+        "page": 188,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 83.33333333333333,
+        "table_index": 0,
+        "shape": [
+          3,
+          2
+        ],
+        "confidence": "high"
+      }
+    ],
+    "189": [
+      {
+        "page": 189,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 70.0,
+        "table_index": 0,
+        "shape": [
+          4,
+          3
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "193": [
+      {
+        "page": 193,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 100,
+        "table_index": 0,
+        "shape": [
+          3,
+          1
+        ],
+        "confidence": "high"
+      }
+    ],
+    "196": [
+      {
+        "page": 196,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 100,
+        "table_index": 0,
+        "shape": [
+          16,
+          1
+        ],
+        "confidence": "high"
+      }
+    ],
+    "197": [
+      {
+        "page": 197,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 100,
+        "table_index": 0,
+        "shape": [
+          14,
+          1
+        ],
+        "confidence": "high"
+      }
+    ],
+    "199": [
+      {
+        "page": 199,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 100,
+        "table_index": 0,
+        "shape": [
+          3,
+          1
+        ],
+        "confidence": "high"
+      }
+    ],
+    "200": [
+      {
+        "page": 200,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 76.66666666666666,
+        "table_index": 0,
+        "shape": [
+          4,
+          1
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "201": [
+      {
+        "page": 201,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 90.0,
+        "table_index": 0,
+        "shape": [
+          3,
+          3
+        ],
+        "confidence": "high"
+      }
+    ],
+    "202": [
+      {
+        "page": 202,
+        "method": "pdfplumber_coordinates",
+        "accuracy": 82.0,
+        "table_index": 0,
+        "shape": [
+          3,
+          1
+        ],
+        "confidence": "high"
+      }
+    ]
+  }
+}

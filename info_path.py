@@ -77,12 +77,13 @@ def mostrar_resultados(pdfs_encontrados):
         print(f"     📁 {ruta}")
         print("-" * 80)
 
-def guardar_resultados_txt(pdfs_encontrados, archivo_salida="pdfs_encontrados.txt"):
+def guardar_resultados_txt(pdfs_encontrados, ruta_base, archivo_salida="pdfs_encontrados.txt"):
     """
     Guarda los resultados en un archivo de texto.
     
     Args:
         pdfs_encontrados (list): Lista de PDFs encontrados
+        ruta_base (str): Ruta base para calcular rutas relativas
         archivo_salida (str): Nombre del archivo donde guardar los resultados
     """
     try:
@@ -90,11 +91,20 @@ def guardar_resultados_txt(pdfs_encontrados, archivo_salida="pdfs_encontrados.tx
             f.write(f"ARCHIVOS PDF ENCONTRADOS - Total: {len(pdfs_encontrados)}\n")
             f.write("=" * 80 + "\n\n")
             
-            for i, (nombre, ruta) in enumerate(pdfs_encontrados, 1):
+            for i, (nombre, ruta_completa) in enumerate(pdfs_encontrados, 1):
+                # Calcular ruta relativa desde la carpeta base
+                ruta_relativa = os.path.relpath(ruta_completa, ruta_base)
+                # Si el archivo está en la carpeta raíz, solo mostrar el nombre
+                if ruta_relativa == nombre:
+                    ruta_mostrar = nombre
+                else:
+                    ruta_mostrar = ruta_relativa
+                
                 f.write(f"{i}. {nombre}\n")
-                f.write(f"   Ruta: {ruta}\n\n")
+                f.write(f"   Ruta: {ruta_mostrar}\n\n")
         
-        print(f"💾 Resultados guardados en: {archivo_salida}")
+        ruta_completa_archivo = os.path.abspath(archivo_salida)
+        print(f"💾 Resultados guardados en: {ruta_completa_archivo}")
         
     except Exception as e:
         print(f"Error al guardar archivo: {e}")
@@ -129,7 +139,7 @@ def main():
             if not nombre_archivo.endswith('.txt'):
                 nombre_archivo += '.txt'
             
-            guardar_resultados_txt(pdfs, nombre_archivo)
+            guardar_resultados_txt(pdfs, ruta, nombre_archivo)
 
 # Función alternativa para uso directo
 def buscar_pdfs_en_ruta(ruta):

@@ -1,7 +1,7 @@
 import json
 
 # Cargar el archivo JSON
-with open(r"C:\Users\javie\Documents\poryecto_natural_2025-09\prueba_txt\TOMO_16.json", "r", encoding="utf-8") as f:
+with open(r"C:\Users\prueba_txt\TOMO_16.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Función recursiva para recorrer y mostrar todas las claves
